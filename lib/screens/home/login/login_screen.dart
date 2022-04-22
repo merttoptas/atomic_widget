@@ -3,7 +3,7 @@ import 'package:atomic_widget/screens/home/dynamic_list/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/atoms/atomic_button.dart';
-import '../../components/molecule/atom_input.dart';
+import '../../components/molecule/molecule_input.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -37,9 +37,9 @@ class _LoginScreenState extends State<LoginScreen> {
             children: <Widget>[
               const AtomicText(title: "Login Page"),
               const SizedBox(height: 50),
-              const AtomInput(hintText: "Email", icon: Icons.email),
+              const MoleculeInput(hintText: "Email", icon: Icons.email),
               const SizedBox(height: 20),
-              const AtomInput(hintText: "Password", icon: Icons.lock),
+              const MoleculeInput(hintText: "Password", icon: Icons.lock),
               const SizedBox(height: 20),
               AtomButton(
                   title: "Login",

@@ -1,14 +1,10 @@
 import 'package:atomic_widget/screens/components/atoms/atomic_text.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
-
-class AtomCard extends StatelessWidget {
-  const AtomCard({Key? key, this.text, this.desc}) : super(key: key);
-
+class OrganismsCard extends StatelessWidget {
+  const OrganismsCard({Key? key, this.text, this.desc}) : super(key: key);
   final String? text;
   final String? desc;
-
 
   @override
   Widget build(BuildContext context) {

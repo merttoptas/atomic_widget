@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../components/organisms/atom_card.dart';
+import '../../components/organisms/organisms_card.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: ListView.builder(
           itemCount: 10,
           itemBuilder: (BuildContext context, int index) {
-            return AtomCard(
+            return OrganismsCard(
               text: "Atom Card $index",
               desc: "Atom Card Subtitle $index",
             );

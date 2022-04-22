@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AtomInput extends StatelessWidget {
-  const AtomInput({Key? key, this.hintText, this.icon}) : super(key: key);
+class MoleculeInput extends StatelessWidget {
+  const MoleculeInput({Key? key, this.hintText, this.icon}) : super(key: key);
   final String? hintText;
   final IconData? icon;
 
@@ -9,7 +9,6 @@ class AtomInput extends StatelessWidget {
   Widget build(BuildContext context) {
     return Flexible( child: TextFormField(
       onChanged: (value) {
-        print(value);
       },
       style: TextStyle(color: Theme.of(context).primaryColor),
       decoration: InputDecoration(
